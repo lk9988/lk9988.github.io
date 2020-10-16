@@ -1,7 +1,9 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-/* all font size, padding, margin need to be corrected later  */
+/* all font size, padding, margin, border need to be corrected later  */
 /* #445877
 #92ccce
 #31343d
@@ -30,6 +32,7 @@ h1 {
   padding-right: 30px;
   padding-top: 40px;
 }
+
 span {
   background-color: #92ccce;
   margin: 0;
@@ -39,4 +42,59 @@ span {
 
   color: #31323d;
   display: inline-block;
+}
+
+/* main styling */
+/* about me section  */
+.about_me {
+  background-color: lightskyblue;
+  display: flex;
+}
+.title {
+  border: 5px solid;
+}
+.about_me .title {
+  flex: 25%;
+}
+.about_me .main_text {
+  flex: 75%;
+}
+/* work section  */
+.work {
+  display: flex;
+}
+.work .title {
+  flex: 25%;
+}
+.work .imagecontainer {
+  background-color: lightslategray;
+
+  justify-content: space-between;
+}
+.work .imagecards {
+  justify-content: space-around;
+  background-color: lightyellow;
+  border: 5px #92ccce solid;
+}
+#card1 {
+  width: 600px;
+  height: 300px;
+  border: 5px #92ccce solid;
+}
+/* contact section */
+.contact {
+  background-color: lightpink;
+  height: 30vh;
+
+  padding-right: 30px;
+  display: flex;
+}
+.contact .title {
+  background-color: lightsalmon;
+
+  right: 10px;
+  flex: 25%;
+}
+.contact .contact_lists {
+  flex: 75%;
 }
