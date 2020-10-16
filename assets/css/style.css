@@ -1,76 +1,34 @@
-
-
 body {
-  background-color: #ffebee;
-  display: block;
-  margin: 0;
-}
-a {
-  text-decoration: none;}
-
-}
-.intro {
-  padding: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ccb9bc ;
-  
-}
-
-.intro #name {
-  padding-top: 20px;
-  margin-left: 20px;
-  display: inline-block; 
-  font-size: 48px;
-  color: #795548;
-}
-.intro #navbar {
-  padding-top: 20px;
-  margin-right: 20px;
-  float: right; 
-  font-size: 20px; 
-  color: #795548;
-
-}
-.intro nav ul li {
-  display: inline-block;
-  margin-left: 25px; 
-
-}
-#subtitle{
-  background-color: cadetblue;
-}
-#myphoto {
-  margin-left:0; 
-  padding-top: 0; 
- 
-}
-
-
-
-}
-#subtitle_text { 
-  margin-right: 60px;
-  float: right;
-}
-
-main{
-  display: flex; 
+  background-color: lightpink;
+  display: flex;
   flex-direction: column;
-  background-color: aqua;
+}
+span {
+  background-color: lightyellow;
+}
+header {
+  background-color: lightseagreen;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+nav div {
+  justify-content: flex-end;
+}
+.cool_subtitile {
+  background-color: magenta;
+}
+main {
+  background-color: lightcoral;
 }
 
 section {
-  display: flex;
-  flex-direction: row;
-  background-color: lightgrey;
-  
-
+  background-color: lightgreen;
 }
 
-aside{ 
-  padding: 60px; 
-  display: flex; 
-  justify-content: flex-end;
-  background-color: burlywood;
+.main_left {
+  background-color: lightslategrey;
+}
 
+.main_right {
+  background-color: lightskyblue;
 }
