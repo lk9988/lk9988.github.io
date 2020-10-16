@@ -1,7 +1,42 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* all font size, padding, margin need to be corrected later  */
+/* #445877
+#92ccce
+#31343d
+#1c1d21
+#eeeef7 */
+
+/* makes nav bar to sit right side */
+/* need to change backgroun color later */
 header {
   background-color: lightslategray;
   padding: 20px;
   display: flex;
-
   justify-content: space-between;
+}
+h1 {
+  font-size: 40px;
+  padding-left: 10px;
+}
+/* need to add background image later */
+.subtitle {
+  text-align: right;
+  background-color: lightyellow;
+  height: 10vh;
+}
+.subtitle h2 {
+  padding-right: 30px;
+  padding-top: 40px;
+}
+span {
+  background-color: #92ccce;
+  margin: 0;
+}
+.subtitle span h2 {
+  font-size: 20px;
+
+  color: #31323d;
+  display: inline-block;
 }
