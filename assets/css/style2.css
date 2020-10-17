@@ -1,71 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: #eeeef7;
+  width: 100%;
 }
 /* all font size, padding, margin, border need to be corrected later  */
-/* #445877
-#92ccce
-#31343d
-#1c1d21
-#eeeef7 */
+/* #445877 - about me 
+#92ccce - light blue text box
+#31343d - header
+#1c1d21 - name/subtitle/ main text  
+#eeeef7 - white */
 
 /* makes nav bar to sit right side */
 /* need to change backgroun color later */
 header {
-  background-color: lightslategray;
-  padding: 20px;
+  background-color: #31343d;
+  padding: 30px 10px 10px 60px;
+
   display: flex;
   justify-content: space-between;
 }
 h1 {
-  font-size: 40px;
-  padding-left: 10px;
+  font-size: 48px;
+}
+header span h1 {
+  background-color: #92ccce;
+  text-align: center;
+}
+header nav a {
+  font-size: 20px;
+  color: #92ccce;
+  padding: 15px;
 }
 /* need to add background image later */
 .subtitle {
   text-align: right;
   background-color: lightyellow;
-  height: 10vh;
 }
 .subtitle h2 {
   padding-right: 30px;
   padding-top: 40px;
 }
 
-span {
-  background-color: #92ccce;
-  margin: 0;
-}
 .subtitle span h2 {
   font-size: 20px;
 
   color: #31323d;
   display: inline-block;
+  padding-bottom: 10px;
+}
+span {
+  background-color: #92ccce;
 }
 
 /* main styling */
 /* about me section  */
 .about_me {
-  background-color: lightskyblue;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  color: #1c1d21;
+  margin: 30px;
 }
 .title {
-  border: 5px solid;
+  border-right: 3px solid;
+  align-items: left;
+  /* why is it different?  */
+
+  text-align: right;
+
+  padding: 10px 10px 10px 50px;
 }
-.about_me .title {
-  flex: 25%;
-}
-.about_me .main_text {
-  flex: 75%;
+p {
+  padding-left: 30px;
 }
 /* work section  */
 .work {
   display: flex;
 }
-.work .title {
-  flex: 25%;
-}
+
 .work .imagecontainer {
   background-color: lightslategray;
 
@@ -76,6 +98,16 @@ span {
   background-color: lightyellow;
   border: 5px #92ccce solid;
 }
+
+/* image card text box  */
+.imagecards .imagetext {
+  width: 200px;
+  height: 60px;
+  background-color: #92ccce;
+
+  text-align: right;
+}
+
 #card1 {
   width: 600px;
   height: 300px;
@@ -93,8 +125,4 @@ span {
   background-color: lightsalmon;
 
   right: 10px;
-  flex: 25%;
-}
-.contact .contact_lists {
-  flex: 75%;
 }
