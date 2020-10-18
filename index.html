@@ -1,103 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Welcome to Lana Kim's Portfolio</title>
-  </head>
-
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <title>Lana's Portfolio</title>
+</head>
+<body>
+    <!-- header -->
     <header>
-      <span>
-        <h1>My Name</h1>
-      </span>
-      <nav>
-        <a href="#"> About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a>
-
-      
-    
-      </nav>
-
-      <div class="cool_subtitile">
-        <span>
-          Cool subtitle here!
-        </span>
-
-      </div>
-      <main>
-        <section class= "main_1" id="about_me">
-          <div class="main_left"><h1>about me</h1></div>
-          
-          <div class ="main_right" id="main_text">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus officia cumque non enim nulla modi, iusto suscipit neque autem? At fugit voluptate facilis voluptatum molestiae est modi quaerat dignissimos sequi.
-
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores voluptate officia error aliquid omnis esse a ducimus porro voluptatem praesentium nesciunt eius earum provident fugiat molestias tempore, asperiores quisquam!</p>
-          </div>
+        <div>
+            <h1>
+            Lana Kim 
+        </h1>
+        </div>
         
-          
-        </section>
-        <section class= "main_1" id="work">
+        <nav>
+            <a href="#about">About me</a>
+            <a href="">Work</a>
+            <a href="#contactme">Contact me</a>
+            <a href="#">Resume</a>
+        </nav>
 
-          <div class ="main_left"><h1>work</h1></div>
-    
-          
-          <div class = "main_right" id ="image_cards">
-            <div id ="image_card1">
-              <span>
-                <h3>Surf Report</h3>
-                MERN stack
-              </span>
-            
-            </div>
-            <div id="image_card2">
-              <span>
-                <h3>LED Wall</h3>
-                blah
-              </span>
-            <div id="image_card3">
-              <span>
-                <h3>Calculator</h3>
-                blah
-              </span>
-          
-            </div>
-            <div id="image_card4">  <span>
-              <h3>Pastel Puzzels</h3>
-              blah
-            
-            </span></div>
-            
-            
-            <div id="image_card5">
-              <span>
-                <h3>Run Buddy</h3>
-                blah
-              </span>
-            </div>
-          </div>
-        </section>
-          
-
-        
-        <section class= "main_1" id="contact_me">
-          <div class = "main_left"><h1>contact Me</h1></div>
-          
-          <div class ="main_right" id="contact_list"> 
-            <a href="#">phone number</a>
-            <a href="#">email</a>
-            <a href="#">github</a>
-            <a href="#">whatever</a>
-          </div>
-
-
-        </section>
-      </main>
-      
     </header>
-  </body>
+    <!-- subtitile -->
+    <div class="subtitle">
+        <span><h2>Cool Subtitile Here!</h2></span>
+        
+        
+    </div>
+    <!-- main  -->
+    <main>
+        <!-- about me section with text  -->
+        <section class="about_me" id="about">
+            <div class="title">
+                <h1>About Me</h1>
+
+            </div>
+            <div class="main_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloremque, sequi obcaecati dolore quis nisi nam totam vel necessitatibus neque quae modi minima nobis nemo molestias possimus sint quisquam velit?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A illum voluptate modi deleniti consequatur cumque aliquam, odit quas praesentium eos dolor et aut tenetur. Eligendi voluptatibus nisi molestias nihil. Autem.</p>
+            </div>
+
+        </section>
+        <!-- work section with image. image with link  -->
+        <section class="work" id ="work">
+            <div class="title">
+                <h1>Work</h1>
+            </div>
+            <div class="imagecontainer">
+                <!-- main image with big picture  -->
+                <div class="imagecards" id="card1">
+                    <img src="./assets/image/project1.jpg" alt= "big green wave">
+                    <div class="imagetext" id="imagetext1">
+                        <h3>Surf Report</h3>
+                        project1
+                     
+                        
+                        
+                    </div>
+                </div>
+                <div class ="smallimages">
+                    <div class="imagecards" id="card2">
+                        <img src="./assets/image/project2.jpg" alt="endless small led lights on the wall">
+                        <div class="imagetext">
+                            <h3>LED Wall
+    
+                            </h3>
+                            project2
+                        </div>
+                    </div>
+                    <div class="imagecards" id="card3">
+                        <img src="./assets/image/project3.jpg" alt="table screen showing website traffic review ">
+                        <div class="imagetext">
+    
+                            <h3>
+                                Calculator
+    
+                            </h3>
+                            project3
+    
+                        </div>
+                    
+    
+                    </div>
+    
+                    <div class="imagecards"id="card4">
+                        <img src ="./assets/image/project4.jpg" alt="bird's eyes view of maze">
+                        <div class="imagetext">
+                            <h3>
+                                Pastel Puzzels
+    
+                            </h3>project4
+    
+                        </div>
+                    </div>
+                    
+                    <div class="imagecards" id="card5">
+                        <img src="./assets/image/project5.jpg" alt="facade of a building">
+                        <div class="imagetext">
+                            <h3>Run Buddy
+    
+                            </h3>project5
+    
+                        </div>
+                    </div>
+
+                </div>
+                <!-- little images card below main  -->
+              
+            
+            </div>
+
+        </section>
+        <!-- contact section with link  -->
+        <section class="contact" id="contactme">
+            <div class="title">
+                <h1>Contact
+                     Me</h1>
+            </div>
+            <div class="contact_lists">
+                <a href="">phone number</a>
+                <a href="">email</a>
+                <a href="">github</a>
+                <a href="">twitter</a>
+            </div>
+        </section>
+
+
+
+
+    </main>
+</body>
+</html>

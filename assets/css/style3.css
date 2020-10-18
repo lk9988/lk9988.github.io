@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* everything in rows  */
+  display: flex;
+  /* everything in columns; */
+  flex-direction: column;
+}
+/* // why title is showing?  */
+body {
+  background-color: #eeeef7;
+  width: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #31343d;
+  height: 60px;
+  position: relative;
+}
+header div {
+  background-color: #92ccce;
+  left: 0;
+  height: 40px;
+  position: absolute;
+}
+header h1 {
+  font-size: 48px;
+  text-align: right;
+}
+.title {
+  border-right: 3px solid;
+
+  /* why is it different?  */
+
+  text-align: right;
+
+  padding: 10px 10px 0 50px;
+}
+h1 {
+  font-size: 48px;
+  text-align: right;
+}
