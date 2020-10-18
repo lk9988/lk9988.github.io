@@ -14,14 +14,14 @@ body {
   line-height: 1.5;
 }
 
-/* makes nav bar to sit right side */
+/* makes nav bar to sit right side. 
+/* changed justify-content space-between to flex-end */
 
 header {
   background-color: #31343d;
-  padding: 30px 0px 10px 0px;
-
+  padding: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: relative;
 }
 
@@ -39,11 +39,18 @@ header div {
 
   left: 0;
   position: absolute;
+  top: 16px;
 }
+
 header nav a {
   font-size: 20px;
   color: #92ccce;
-  padding: 30px;
+  padding: 15px;
+}
+
+header nav a:hover {
+  color: #31343d;
+  background-color: #92ccce;
 }
 /* need to add background image later */
 .subtitle {
