@@ -95,6 +95,9 @@ section {
   text-align: right;
 
   padding: 10px 10px 0 50px;
+  /* made width set, but now text overflow when screen is smaller */
+  width: 25%;
+  flex-shrink: 0;
 }
 .about_me {
   display: flex;
@@ -116,12 +119,21 @@ p {
   margin: 0 auto;
   flex-wrap: wrap;
 }
+/* made small images sit next to each other on same line */
+.smallimages {
+  display: flex;
+  flex: wrap;
+}
 .imagecards {
   border: 5px #92ccce solid;
   position: relative;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 50%;
+  /* got rid of any lefe/right margin */
+  width: 48%;
+  justify-content: space-between;
+}
+/* made image full inside of imagebox */
+img {
+  display: block;
 }
 #card1 {
   width: auto;
