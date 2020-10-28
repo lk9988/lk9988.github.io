@@ -40,3 +40,86 @@ header {
   color: #31343d;
   background-color: #92ccce;
 }
+
+.subtitle {
+  background-image: url(../image/subtitle.jpg);
+  
+ text-align: right;
+  font-size: 1.3em;
+  color: #31323d;
+  
+}
+.subtitle span {
+  background-color: #92ccce;
+  
+}
+.subtitle h2 {
+    display: inline-block; 
+    padding: 3em 1.875rem 0.5em 1em; 
+}; 
+
+main {
+    color: #445877;
+
+}
+section { 
+    padding: 1.875rem; 
+    display: flex; 
+
+}
+
+
+
+.aside { 
+    overflow: auto;
+    text-align: right;
+    width: 20vw;
+    flex-shrink: 0;
+    border-right: 0.188rem solid;
+    padding: 1rem 1rem 0 3rem;
+    font-size: 2.5em;
+    
+
+}
+.main_text {
+    padding-left: 1rem;
+}
+
+.mypic { 
+
+    background-image: url(../image/lk-bio.JPG);
+    border-radius: 70%;
+    overflow: hidden; 
+    width: 25vh;
+    height: 25vh;
+    background-size: contain;
+    float: left;
+    margin: 0 1rem  1rem 0; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@ media screen and (max-width: 600px)  {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nameBar {
+    font-size: 2em;
+  }
+  .navBar a {
+    flex-direction: column;
+  }
+}
