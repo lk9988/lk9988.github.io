@@ -43,61 +43,152 @@ header {
 
 .subtitle {
   background-image: url(../image/subtitle.jpg);
-  
- text-align: right;
+
+  text-align: right;
   font-size: 1.3em;
   color: #31323d;
-  
 }
 .subtitle span {
   background-color: #92ccce;
-  
 }
 .subtitle h2 {
-    display: inline-block; 
-    padding: 3em 1.875rem 0.5em 1em; 
-}; 
-
+  display: inline-block;
+  padding: 3em 1.875rem 0.5em 1em;
+}
+ /* main */
 main {
-    color: #445877;
-
+  color: #445877;
 }
-section { 
-    padding: 1.875rem; 
-    display: flex; 
-
+section {
+  padding: 1.875rem;
+  display: flex;
 }
-
-
-
-.aside { 
-    overflow: auto;
-    text-align: right;
-    width: 20vw;
-    flex-shrink: 0;
-    border-right: 0.188rem solid;
-    padding: 1rem 1rem 0 3rem;
-    font-size: 2.5em;
-    
-
+/* all left textbox */
+.aside {
+  overflow: auto;
+  text-align: right;
+  width: 20vw;
+  flex-shrink: 0;
+  border-right: 0.188rem solid;
+  padding: 1rem 1rem 0 3rem;
+  font-size: 2.5em;
 }
 .main_text {
+  padding-left: 1rem;
+  margin: 2em auto 0;
+}
+
+.mypic {
+  background-image: url(../image/lk-bio.JPG);
+  border-radius: 70%;
+  overflow: hidden;
+  width: 25vh;
+  height: 25vh;
+  background-size: contain;
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+
+
+.imagecontainer {
+    
     padding-left: 1rem;
+    width: 100%;
+    margin: 2em auto 0;
+  }
+  
+.main_image_container{
+    margin-bottom: 1.25em;
+}
+  
+.main_image_container,
+.imagecards {
+    position: relative;
+}
+  
+.image_title {
+    background-color:#92ccce; 
+    width: 11em;
+    padding: 0.3em 1.2em;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.image_title h3 {
+      font-size: 1.2em;
+}
+.main_image {
+    background-image: url(../image/project1.jpg);
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.8em #92ccce solid;
+}
+  /* display flex & flex-warp warp made 2 x2  */
+.smallimagegrid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+  
+.imagecards {
+    min-width: 48.8%;
+    margin-bottom: 1.25em;
+}
+  
+.smallImage1{
+    background-image: url("../image/project2.jpg");
+    height: 12em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border:0.8em #92ccce solid;
+}
+.smallImage2{
+    background-image: url("../image/project3.jpg");
+    height: 12em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border:0.8em #92ccce solid;
+}
+.smallImage3 {
+    background-image: url("../image/project4.jpg");
+    height: 12em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border:0.8em #92ccce solid;
+}
+.smallImage4{
+    background-image: url("../image/project5.jpg");
+    height: 12em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border:0.8em #92ccce solid;
 }
 
-.mypic { 
+.section3  {
+    display: flex;
+    justify-content: space-between;
+}
 
-    background-image: url(../image/lk-bio.JPG);
-    border-radius: 70%;
-    overflow: hidden; 
-    width: 25vh;
-    height: 25vh;
-    background-size: contain;
-    float: left;
-    margin: 0 1rem  1rem 0; 
+.contact_links { 
+    font-size: 1.5em;
+    color: #445877;
+    padding-top: 2.5rem;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.contact_links a {
 
-
+    
+    color: #445877;
+    padding: 3em;
 }
 
 
@@ -109,9 +200,7 @@ section {
 
 
 
-
-
-@ media screen and (max-width: 600px)  {
+@ media screen and (max-width: 600px) {
   header {
     flex-direction: column;
     align-items: center;
