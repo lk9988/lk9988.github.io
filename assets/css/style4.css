@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: #eeeef7;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  background-color: #31343d;
+  justify-content: space-between;
+  padding: 0.625em 1.875rem 0.625em 0;
+  align-items: center;
+}
+
+.nameBar {
+  font-size: 3rem;
+  background-color: #92ccce;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.navBar {
+  font-size: 1.5em;
+  flex-direction: row;
+  justify-content: space-betweens;
+}
+.navBar a {
+  color: #92ccce;
+  padding: 0 1em;
+}
+
+.navBar a:hover {
+  color: #31343d;
+  background-color: #92ccce;
+}
