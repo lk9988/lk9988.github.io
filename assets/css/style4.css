@@ -55,7 +55,7 @@ header {
   display: inline-block;
   padding: 3em 1.875rem 0.5em 1em;
 }
- /* main */
+/* main */
 main {
   color: #445877;
 }
@@ -89,126 +89,97 @@ section {
   margin: 0 1rem 1rem 0;
 }
 
-
-
 .imagecontainer {
-    
-    padding-left: 1rem;
-    width: 100%;
-    margin: 2em auto 0;
-  }
-  
-.main_image_container{
-    margin-bottom: 1.25em;
+  padding-left: 1rem;
+  width: 100%;
+  margin: 2em auto 0;
 }
-  
+
+.main_image_container {
+  margin-bottom: 1.25em;
+}
+
 .main_image_container,
 .imagecards {
-    position: relative;
+  position: relative;
 }
-  
+
 .image_title {
-    background-color:#92ccce; 
-    width: 11em;
-    padding: 0.3em 1.2em;
-    position: absolute;
-    left: 0;
-    bottom: 30px;
+  background-color: #92ccce;
+  width: 11em;
+  padding: 0.3em 1.2em;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
 }
 .image_title h3 {
-      font-size: 1.2em;
+  font-size: 1.2em;
 }
 .main_image {
-    background-image: url(../image/project1.jpg);
-    height: 30em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.8em #92ccce solid;
+  background-image: url(../image/project1.jpg);
+  height: 30em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.8em #92ccce solid;
 }
-  /* display flex & flex-warp warp made 2 x2  */
+/* display flex & flex-warp warp made 2 x2  */
 .smallimagegrid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-  
+
 .imagecards {
-    min-width: 48.8%;
-    margin-bottom: 1.25em;
+  min-width: 48.8%;
+  margin-bottom: 1.25em;
 }
-  
-.smallImage1{
-    background-image: url("../image/project2.jpg");
-    height: 12em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    border:0.8em #92ccce solid;
+
+.smallImage1 {
+  background-image: url("../image/project2.jpg");
+  height: 12em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 0.8em #92ccce solid;
 }
-.smallImage2{
-    background-image: url("../image/project3.jpg");
-    height: 12em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    border:0.8em #92ccce solid;
+.smallImage2 {
+  background-image: url("../image/project3.jpg");
+  height: 12em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 0.8em #92ccce solid;
 }
 .smallImage3 {
-    background-image: url("../image/project4.jpg");
-    height: 12em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    border:0.8em #92ccce solid;
+  background-image: url("../image/project4.jpg");
+  height: 12em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 0.8em #92ccce solid;
 }
-.smallImage4{
-    background-image: url("../image/project5.jpg");
-    height: 12em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    border:0.8em #92ccce solid;
-}
-
-.section3  {
-    display: flex;
-    justify-content: space-between;
+.smallImage4 {
+  background-image: url("../image/project5.jpg");
+  height: 12em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 0.8em #92ccce solid;
 }
 
-.contact_links { 
-    font-size: 1.5em;
-    color: #445877;
-    padding-top: 2.5rem;
-    flex-direction: row;
-    justify-content: space-between;
-
+.section3 {
+  display: flex;
 }
+
+.contact_links {
+  font-size: 1.5em;
+  color: #445877;
+  padding-top: 2.5rem;
+  flex-direction: row;
+}
+
 .contact_links a {
-
-    
-    color: #445877;
-    padding: 3em;
-}
-
-
-
-
-
-
-
-
-
-
-@ media screen and (max-width: 600px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-  .nameBar {
-    font-size: 2em;
-  }
-  .navBar a {
-    flex-direction: column;
-  }
+  color: #445877;
+  padding: 2em;
 }

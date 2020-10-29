@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 0.625em 0;
+  }
+  .nameBar {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .aside {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .contact_links a {
+    padding: 0.5em;
+  }
+}
