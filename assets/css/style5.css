@@ -1,23 +1,36 @@
+/* Media Query  */
+/* for small screen */
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
     padding: 0.625em 0;
   }
   .nameBar {
+    font-size: 2.5em;
     width: 100%;
     text-align: center;
     padding: 0;
   }
+  .navBar {
+    font-size: 0.9em;
+  }
   .aside {
     padding: 1rem 1rem 0 1rem;
+    font-size: 1.5em;
   }
 
   .contact_links a {
     padding: 0.5em;
   }
+  .contact_links {
+    font-size: 1em;
+    padding-top: 1em;
+    padding-left: 2em;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   header {
     flex-direction: column;
     padding: 0.625em 0;
@@ -33,7 +46,8 @@
     padding-top: 1em;
   }
   .aside {
-    font-size: 1.5em;
+    width: 15vh;
+    font-size: 1em;
     padding: 1rem 1rem 0 0;
   }
   .smallimagegrid {
@@ -43,7 +57,7 @@
     font-size: 1em;
   }
 }
-
+/* for pad screen */
 @media screen and (max-width: 1024px) {
   header {
     flex-direction: column;
@@ -65,5 +79,7 @@
   }
   .contact_links {
     font-size: 1em;
+    padding-top: 1em;
+    padding-left: 2em;
   }
 }
