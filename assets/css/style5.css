@@ -16,3 +16,54 @@
     padding: 0.5em;
   }
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 0.625em 0;
+  }
+
+  .nameBar {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .navBar {
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .aside {
+    font-size: 1.5em;
+    padding: 1rem 1rem 0 0;
+  }
+  .smallimagegrid {
+    display: inline;
+  }
+  .contact_links {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    padding: 0.625em 0;
+  }
+
+  .nameBar {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .navBar {
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .aside {
+    font-size: 1.5em;
+    padding: 1rem 1rem 0 0;
+  }
+  .contact_links {
+    font-size: 1em;
+  }
+}

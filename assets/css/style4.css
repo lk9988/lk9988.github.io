@@ -183,3 +183,6 @@ section {
   color: #445877;
   padding: 2em;
 }
+.contact_links a:hover {
+  text-decoration: underline;
+}
